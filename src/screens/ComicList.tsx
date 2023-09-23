@@ -4,8 +4,9 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import { styles } from '../styles/ComicListStyle';
 import ComicCard from '../components/ComicCard';
 import { colors } from '../utils/colors';
+import { ComicType } from '../lib/types';
 
-const comicsData = require('../../assets/my_comics.json');
+const comicsData: ComicType[] = require('../../assets/my_comics.json');
 
 const ComicsList = () => {
     const itemsPerPage = 20;
