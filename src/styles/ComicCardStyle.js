@@ -12,11 +12,6 @@ export const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'column',
     },
-    imageContainer: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
     image: {
         width: '100%',
         height: 200,
@@ -26,13 +21,6 @@ export const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
         marginTop: 5,
-    },
-    publisher: {
-        fontSize: 14,
-        marginTop: 5,
-    },
-    year: {
-        fontSize: 14,
-        marginTop: 5,
+        textAlign: 'center',
     },
 });

@@ -3,15 +3,16 @@ import { Text, Image, TouchableOpacity } from 'react-native';
 import { styles } from '../styles/ComicCardStyle';
 import { ComicType } from '../lib/types';
 
-const ComicCard = ({ comic }: { comic: ComicType }) => {
+interface ComicCardProps {
+    comic: ComicType;
+    onPress: () => void;
+}
+
+const ComicCard = ({ comic, onPress }: ComicCardProps) => {
     return (
-        <TouchableOpacity style={styles.container}>
+        <TouchableOpacity style={styles.container} onPress={onPress}>
             <Image source={{ uri: comic.coverImage }} style={styles.image} />
             <Text style={styles.title}>{comic.title}</Text>
-            <Text style={styles.publisher}>Publisher: {comic.publisher}</Text>
-            <Text style={styles.year}>
-                Year: {comic.startYear} - {comic.endYear}
-            </Text>
         </TouchableOpacity>
     );
 };
