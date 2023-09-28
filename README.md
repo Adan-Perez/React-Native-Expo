@@ -1,4 +1,4 @@
-# CAMBIO DE MODAL FONDO + VISUALIZADOR DE CÓMICS - REACT NATIVE
+# CAMBIO DE MODAL FONDO + VISUALIZADOR DE CÓMICS - REACT NATIVE EXPO
 
 **Autor**: [Adan-Perez](https://github.com/Adan-Perez)
 
@@ -15,20 +15,21 @@
 
 ## Preview
 
-<div style=justify-items: center; align-items: center;">
-    <img src="" alt="Demo">
+<div style="grid-template-columns: repeat(2, 1fr); display: grid; justify-items: center; align-items: center;">
+    <img src="https://i.imgur.com/vt7IOyu.gif" alt="Demo">
+    <img src="https://i.imgur.com/xuruN68.gif" alt="Demo">
 </div>
 
-### Si el video no carga, vamos al link:
+### Si el video no carga, vamos al link: https://i.imgur.com/vt7IOyu.gif y https://i.imgur.com/xuruN68.gif
 
 ---
 
 ## Screenshots
 
 <div style="grid-template-columns: repeat(3, 1fr); display: grid; justify-items: center; align-items: center;">
-    <img src="" alt="Screenshot" style="width: 250px; margin: 10px;">
-    <img src="" alt="Screenshot" style="width: 250px; margin: 10px;">
-     <img src="" alt="Screenshot" style="width: 250px; margin: 10px;">
+    <img src="https://i.imgur.com/mw66kYN.jpg" alt="Screenshot" style="width: 250px; margin: 10px;">
+    <img src="https://i.imgur.com/bvDZIsH.jpg" alt="Screenshot" style="width: 250px; margin: 10px;">
+     <img src="https://i.imgur.com/eWywN7x.jpg" alt="Screenshot" style="width: 250px; margin: 10px;">
 </div>
 
 ---
