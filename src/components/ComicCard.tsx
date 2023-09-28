@@ -1,8 +1,9 @@
 import React from 'react';
 import { Text, Image, TouchableOpacity } from 'react-native';
 import { styles } from '../styles/ComicCardStyle';
+import { ComicType } from '../lib/types';
 
-const ComicCard = ({ comic }) => {
+const ComicCard = ({ comic }: { comic: ComicType }) => {
     return (
         <TouchableOpacity style={styles.container}>
             <Image source={{ uri: comic.coverImage }} style={styles.image} />

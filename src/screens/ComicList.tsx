@@ -36,6 +36,7 @@ const ComicsList = () => {
                 numColumns={2}
                 contentContainerStyle={styles.gridContainer}
             />
+
             <View style={styles.pagination}>
                 <TouchableOpacity onPress={prevPage} style={styles.paginationButton}>
                     <MaterialCommunityIcons
