@@ -1,4 +1,4 @@
-# CAMBIO DE MODAL FONDO + VISUALIZADOR DE CÓMICS - REACT NATIVE EXPO
+# CAMBIO DE FONDO + VISUALIZADOR DE INFO DE CÓMICS - REACT NATIVE EXPO
 
 **Autor**: [Adan-Perez](https://github.com/Adan-Perez)
 
@@ -17,10 +17,10 @@
 
 <div style="grid-template-columns: repeat(2, 1fr); display: grid; justify-items: center; align-items: center;">
     <img src="https://i.imgur.com/vt7IOyu.gif" alt="Demo">
-    <img src="https://i.imgur.com/xuruN68.gif" alt="Demo">
+    <img src="https://i.imgur.com/NdobplZ.gif" alt="Demo">
 </div>
 
-### Si el video no carga, vamos al link: https://i.imgur.com/vt7IOyu.gif y https://i.imgur.com/xuruN68.gif
+### Si el video no carga, vamos al link: https://i.imgur.com/vt7IOyu.gif y https://i.imgur.com/NdobplZ.gif
 
 ---
 
